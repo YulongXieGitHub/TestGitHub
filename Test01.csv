@@ -1,0 +1,53 @@
+July 11, 2015
+
+Test01.csv
+
+Learning github from the Youtube Tutorial: https://www.youtube.com/watch?v=0fKg7e37bQE
+
+Five basic commands
+
+The Github Account is: YulongXieGitHub
+The Repository to work on is: https://github.com/YulongXieGitHub/TestGitHub.git
+
+1. [git clone https://github.com/YulongXieGitHub/TestGitHub.git]
+   
+   get a copy of the repository from the github
+   
+   switch to cd TestGitHub before [git status]
+   
+   In Windows when cd to TestGitHub repository, the prompt change to [master +1 ~0 ~0]  where +1 ~0 ~0 are in red.
+   
+2. [git status]
+
+   check what is the difference between the local copy and the github repository
+   
+   prompts are:
+
+   On branch master
+   Your branch is uo-to-date with 'origin/master'
+   
+   Untracked files:
+   (use "git add <file>..." to include in what will be committed).
+   
+   Nothing added to commit but untracked files present (use "git add" to track)
+
+3. [git add Test01.csv]: note file name is case sensitive.  (add changes or new files)
+
+   [git status] again
+   
+   Prompts are:
+
+   On branch master
+   Your branch is uo-to-date with 'origin/master'
+   
+   Changes to be committed:
+   (use "git reset HEAD <file>..." to unstage).
+   
+   new file: Test01.csv	(in green)
+   
+   Also [+1 ~0 ~0] change from red to green.
+   
+   
+4. [git commit -m "adding Test01.csv"]  Locking in the addeed changes and files to the repository.  Commit only lock in the files / changes to the repository but not synch to the online github repository yet.
+
+5. [git push]:  push the changes/files to github.com
