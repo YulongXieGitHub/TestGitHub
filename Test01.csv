@@ -88,5 +88,29 @@ Note: every time this file changes, need to [git add Test01.csv"], [git commit -
     
 If refresh the github.com webpage, we will see Test01.csv overtheree.
 
+
+7. To get the most useful git commands, just type 
+
+[git]
+
+
+8. a normal workflow:
+
+(a) start with a [git pull]
+
+(b) working on my changes
+
+(c) add my changes with [git add]
+
+(d) synch my changes [git commit -m "####"]
+
+(e) [git push]
+
+(f) [git add -A] to resolve conflict
+
+[g] [git commit] can add multiple lines of comments
+
+	
 ------------------- end of this first exercise -------------------------
+    
     
