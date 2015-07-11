@@ -1,8 +1,11 @@
 July 11, 2015
 
-Test01.csv
+YuLong Xie
 
-Learning github from the Youtube Tutorial: https://www.youtube.com/watch?v=0fKg7e37bQE
+
+Learning github from the Youtube Tutorial: "https://www.youtube.com/watch?v=0fKg7e37bQE"
+
+----------------------------- exercise one: (1) create a repository with only a readme file in github.com, (2) clone the repository in local machine, (3) create a file Test01.csv and (4) push back to github.com -------------------
 
 Five basic commands
 
@@ -82,4 +85,8 @@ Note: every time this file changes, need to [git add Test01.csv"], [git commit -
     Prompts:
     
     Already up-to-date
+    
+If refresh the github.com webpage, we will see Test01.csv overtheree.
+
+------------------- end of this first exercise -------------------------
     
