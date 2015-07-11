@@ -45,3 +45,8 @@ TestGitHub_initFromLocal		https://github.com/YulongXieGitHub/TestGitHub_initFrom
 Origin					https://github.com/YulongXieGitHub/TestGitHub.git (fetch)
 Origin					https://github.com/YulongXieGitHub/TestGitHub.git (push)
 ----------------------------------------------------------------------------------------------------------------------
+
+
+
+When more tnan one repository is connected, push use the name instead of the [origin]
+
