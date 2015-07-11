@@ -50,4 +50,31 @@ The Repository to work on is: https://github.com/YulongXieGitHub/TestGitHub.git
    
 4. [git commit -m "adding Test01.csv"]  Locking in the addeed changes and files to the repository.  Commit only lock in the files / changes to the repository but not synch to the online github repository yet.
 
+   Prompt:
+   
+   Add Test01.csv
+   1 file changed, 53 insertions(+)
+   create mode 100644 Test01.csv
+   
+   If [git status], prompts are:
+   
+   On branch master
+   Your branch is ahead of "origin/master" by 1 commit.
+   (use "git push" to publish your local commits).
+   Nothing to commit, working directory clean.
+   
 5. [git push]:  push the changes/files to github.com
+
+    Counting objects: 4, done.
+    Delta compression using up to 8 threads.
+    Compressing objects: 100% (3/3), done.
+    Wiriting objects: 100% (3/3),983 bytes | 0 bytes/s, done.
+    Total 3 (delta 0), reused 0 (delta 0)
+    To https://github.com/YulongXieGitHub/TestGitHub.git
+    f948f42..f12336f master --> master
+    
+    
+Note: every time this file changes, need to [git add Test01.csv"], [git commit -m "####"], [git push] to put changes to github.com.
+
+
+6. [git pull]
