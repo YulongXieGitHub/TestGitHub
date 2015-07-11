@@ -78,3 +78,8 @@ Note: every time this file changes, need to [git add Test01.csv"], [git commit -
 
 
 6. [git pull]
+    
+    Prompts:
+    
+    Already up-to-date
+    
